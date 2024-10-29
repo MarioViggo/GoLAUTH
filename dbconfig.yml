@@ -1,0 +1,9 @@
+development:
+    dialect: mysql
+    datasource: authuser:pass@db/authdb?parseTime=true
+    dir: server/migrations/mysql
+
+production:
+    dialect: mysql
+    datasource: authuser:pass@db/authdb?parseTime=true
+    dir: server/migrations/mysql
